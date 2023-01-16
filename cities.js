@@ -1,163 +1,102 @@
-1	Urban Honolulu	351,554
-2	East Honolulu	50,076
-3	Hilo	46,559
-4	Pearl City	45,941
-5	Kailua CDP	40,402
-6	Waipahu	39,927
-7	Kaneohe	34,509
-8	Ewa Gentry	28,125
-9	Mililani Town	27,974
-10	Kahului	27,938
-11	Kapolei	23,248
-12	Kihei	22,840
-13	Mililani Mauka	21,657
-14	Kailua CDP	21,460
-15	Makakilo	20,862
-16	Schofield Barracks	18,255
-17	Wahiawa	17,357
-18	Ocean Pointe	16,676
-19	Wailuku	15,670
-20	Halawa	14,990
-21	Ewa Beach	14,614
-22	Royal Kunia	14,390
-23	Waianae	14,152
-24	Waimalu	13,818
-25	Lahaina	13,261
-26	Maili	13,245
-27	Nanakuli	12,587
-28	Hawaiian Paradise Park	11,942
-29	Kaneohe Base	11,829
-30	Kaiminani	11,557
-31	Kapaa	11,516
-32	Waihee-Waiehu	11,059
-33	Waipio	10,989
-34	Waimea CDP	10,422
-35	Hickam Housing	10,022
-36	Makaha	9,710
-37	Aiea	9,527
-38	Haiku-Pauwela	9,347
-39	Ahuimanu	8,943
-40	Lihue	8,371
-41	Makawao	7,670
-42	Waikoloa Village	7,519
-43 TIE	Kula	7,495
-43 TIE	Waikele	7,495
-45	Pukalani	7,315
-46	Kahaluu-Keauhou	7,236
-47	Napili-Honokowai	6,762
-48	Ewa Villages	6,657
-49	Wailua Homesteads	6,634
-50	Wailea	6,546
-51	Laie	6,436
-52	West Loch Estate	6,239
-53	Iroquois Point	5,737
-54	Waipio Acres	5,618
-55	Waimanalo	5,371
-56	Kahaluu	5,006
-57	Heeia	4,777
-58	Kalaheo	4,776
-59	Haleiwa	4,651
-60	Hanamaulu	4,435
-61	Pupukea	4,416
-62	Waimanalo Beach	4,389
-63	Hawaiian Beaches	4,213
-64	Puhi	4,154
-65	Captain Cook	4,087
-66	Waikapu	4,002
-67	Ainaloa	3,963
-68	Whitmore Village	3,881
-69	Hauula	3,869
-70	Hawaiian Ocean View	3,851
-71	East Kapolei	3,610
-72	Mountain View	3,467
-73	Helemano	3,404
-74	Kilauea	3,349
-75	Kaunakakai	3,263
-76	Waialua	3,222
-77	Kurtistown	3,115
-78	Hawaiian Acres	3,093
-79	Lanai City	3,079
-80	Kekaha	3,014
-81	Kalaeloa	2,808
-82	Anahola	2,787
-83	Orchidlands Estates	2,749
-84	Lawai	2,733
-85	Holualoa	2,710
-86	Keokea	2,645
-87	Wailua	2,630
-88	Honaunau-Napoopoo	2,538
-89	Hanapepe	2,456
-90	Paia	2,410
-91	Kahuku	2,371
-92	Wheeler AFB	2,353
-93	Koloa	2,348
-94	Eleele	2,329
-95	Pahala	2,210
-96	Kealakekua	2,128
-97	Maunawili	2,071
-98	Kapaau	2,044
-99	Kualapuu	2,024
-100	Princeville	1,969
-101	Honokaa	1,933
-102	Mokuleia	1,886
-103	Waimea CDP	1,863
-104	Fern Acres	1,781
-105	Ko Olina	1,776
-106	Kaloko	1,707
-107	Leilani Estates	1,674
-108	Pepeekeo	1,539
-109	Nanawale Estates	1,538
-110	Kaumakani	1,476
-111	Omao	1,459
-112	Pahoa	1,336
-113	Royal Hawaiian Estates	1,264
-114	Hawi	1,252
-115	Kaaawa	1,231
-116	Keaau	1,188
-117	Kaanapali	1,164
-118	Mahinahina	1,160
-119	Discovery Harbour	1,154
-120	Laupahoehoe	1,099
-121	Haliimaile	1,092
-122	Punaluu	1,062
-123	Volcano Golf Course	1,029
-124	Wainaku	1,020
-125	Poipu	1,008
-126	Olinda	931
-127 TIE	Naalehu	923
-127 TIE	Honalo	923
-129	Mauna Loa Estates	918
-130	Papaikou	873
-131	Fern Forest	787
-132	Waiahole-Waikane	766
-133	Volcano	765
-134 TIE	Halaula	762
-134 TIE	Eden Roc	762
-136	Hana	657
-137	Paukaa	636
-138	Waikoloa Beach Resort	629
-139	Launiupoko	620
-140	Paauilo	469
-141	Hanalei	416
-142	Kukuihaele	393
-143	Ualapue	391
-144	Honomu	390
-145	Kapalua	384
-146	Kawela Bay	369
-147	Tiki Gardens	354
-148	Pakala Village	346
-149	Haena	316
-150	Maunaloa	270
-151	Puako	269
-152	Kalihiwai	260
-153	Maalaea	223
-154	Waiohinu	220
-155	Seaview	217
-156	Wainiha	181
-157 TIE	Makena	167
-157 TIE	Kamaili	167
-159	Makaha Valley	155
-160	Black Sands	143
-161	Olowalu	91
-162	Manele	47
-163	Kalapana	30
+const cities = [
+  { name: 'Urban Honolulu', population: 351554, island: 'Oahu' },
+  { name: 'East Honolulu', population: 50076, island: 'Oahu' },
+  { name: 'Hilo', population: 46559, island: 'Hawaii' },
+  { name: 'Pearl City', population: 45941, island: 'Oahu' },
+  { name: 'Kailua', population: 40402, island: 'Oahu' },
+  { name: 'Waipahu', population: 39927, island: 'Oahu' },
+  { name: 'Kaneohe', population: 34509, island: 'Oahu' },
+  { name: 'Ewa Gentry', population: 28125, island: 'Oahu' },
+  { name: 'Mililani Town', population: 27974, island: 'Oahu' },
+  { name: 'Kahului', population: 27938, island: 'Maui' },
+  { name: 'Kapolei', population: 23248, island: 'Oahu' },
+  { name: 'Kihei', population: 22840, island: 'Maui' },
+  { name: 'Mililani Mauka', population: 21657, island: 'Oahu' },
+  { name: 'Kailua Kona', population: 21460, island: 'Hawaii' },
+  { name: 'Makakilo', population: 20862, island: 'Oahu' },
+  { name: 'Schofield Barracks', population: 18255, island: 'Oahu' },
+  { name: 'Wahiawa', population: 17357, island: 'Oahu' },
+  { name: 'Ocean Pointe', population: 16676, island: 'Oahu' },
+  { name: 'Wailuku', population: 15670, island: 'Maui' },
+  { name: 'Halawa', population: 14990, island: 'Oahu' },
+  { name: 'Ewa Beach', population: 14614, island: 'Oahu' },
+  { name: 'Royal Kunia', population: 14390, island: 'Oahu' },
+  { name: 'Waianae', population: 14152, island: 'Oahu' },
+  { name: 'Waimalu', population: 13818, island: 'Oahu' },
+  { name: 'Lahaina', population: 13261, island: 'Maui' },
+  { name: 'Maili', population: 13245, island: 'Oahu' },
+  { name: 'Nanakuli', population: 12587, island: 'Oahu' },
+  { name: 'Hawaiian Paradise Park', population: 11942, island: 'Hawaii' },
+  { name: 'Kaneohe Base', population: 11829, island: 'Oahu' },
+  { name: 'Kaiminani', population: 11557 },
+  { name: 'Kapaa', population: 11516, island: 'Kauai' },
+  { name: 'Waihee - Waiehu', population: 11059, island: 'Maui' },
+  { name: 'Waipio', population: 10989, island: 'Oahu' },
+  { name: 'Waimea', population: 10422, island: 'Hawaii' },
+  { name: 'Hickam Housing', population: 10022, island: 'Oahu' },
+  { name: 'Makaha', population: 9710, island: 'Oahu' },
+  { name: 'Aiea', population: 9527, island: 'Oahu' },
+  { name: 'Haiku - Pauwela', population: 9347, island: 'Maui' },
+  { name: 'Ahuimanu', population: 8943, island: 'Oahu' },
+  { name: 'Lihue', population: 8371, island: 'Kauai' },
+  { name: 'Makawao', population: 7670, island: 'Maui' },
+  { name: 'Waikoloa Village', population: 7519, island: 'Hawaii' },
+  { name: 'Kula', population: 7495, island: 'Maui' },
+  { name: 'Waikele', population: 7495, island: 'Oahu' },
+  { name: 'Pukalani', population: 7315, island: 'Maui' },
+  { name: 'Kahaluu - Keauhou', population: 7236, island: 'Oahu' },
+  { name: 'Napili - Honokowai', population: 6762, island: 'Maui' },
+  { name: 'Ewa Villages', population: 6657, island: 'Oahu' },
+  { name: 'Wailua Homesteads', population: 6634, island: 'Kauai' },
+  { name: 'Wailea', population: 6546, island: 'Maui' },
+  { name: 'Laie', population: 6436, island: 'Oahu' },
+  { name: 'West Loch Estate', population: 6239, island: 'Oahu' },
+  { name: 'Iroquois Point', population: 5737, island: 'Oahu' },
+  { name: 'Waipio Acres', population: 5618, island: 'Oahu' },
+  { name: 'Waimanalo', population: 5371, island: 'Oahu' },
+  { name: 'Kahaluu', population: 5006, island: 'Oahu' },
+  { name: 'Heeia', population: 4777, island: 'Oahu' },
+  { name: 'Kalaheo', population: 4776, island: 'Kauai' },
+  { name: 'Haleiwa', population: 4651, island: 'Oahu' },
+  { name: 'Hanamaulu', population: 4435, island: 'Kauai' },
+  { name: 'Pupukea', population: 4416, island: 'Oahu' },
+  { name: 'Waimanalo Beach', population: 4389, island: 'Oahu' },
+  { name: 'Hawaiian Beaches', population: 4213, island: 'Hawaii' },
+  { name: 'Puhi', population: 4154, island: 'Kauai' },
+  { name: 'Captain Cook', population: 4087, island: 'Hawaii' },
+  { name: 'Waikapu', population: 4002, island: 'Maui' },
+  { name: 'Ainaloa', population: 3963, island: 'Hawaii' },
+  { name: 'Whitmore Village', population: 3881, island: 'Oahu' },
+  { name: 'Hauula', population: 3869, island: 'Oahu' },
+  { name: 'Hawaiian Ocean View', population: 3851, island: 'Hawaii' },
+  { name: 'East Kapolei', population: 3610, island: 'Oahu' },
+  { name: 'Mountain View', population: 3467, island: 'Hawaii' },
+  { name: 'Helemano', population: 3404, island: 'Oahu' },
+  { name: 'Kilauea', population: 3349, island: 'Kauai' },
+  { name: 'Kaunakakai', population: 3263, island: 'Maui' },
+  { name: 'Waialua', population: 3222, island: 'Oahu' },
+  { name: 'Kurtistown', population: 3115, island: 'Hawaii' },
+  { name: 'Hawaiian Acres', population: 3093, island: 'Hawaii' },
+  { name: 'Lanai City', population: 3079, island: 'Lanai' },
+  { name: 'Kekaha', population: 3014, island: 'Kauai' },
+  { name: 'Kalaeloa', population: 2808, island: 'Oahu' },
+  { name: 'Anahola', population: 2787, island: 'Kauai' },
+  { name:  'Orchidlands Estates', population: 2749, island: 'Hawaii' },
+  { name:  'Lawai', population: 2733, island: 'Kauai' },
+  { name:  'Holualoa', population: 2710, island: 'Hawaii' },
+  { name:  'Keokea', population: 2645, island: 'Maui' },
+  { name:  'Wailua', population: 2630, island: 'Kauai' },
+  { name:  'Honaunau - Napoopoo', population: 2538, island: 'Hawaii' },
+  { name:  'Hanapepe', population: 2456, island: 'Kauai' },
+  { name:  'Paia', population: 2410, island: 'Maui' },
+  { name:  'Kahuku', population: 2371, island: 'Oahu' },
+  { name:  'Wheeler AFB', population: 2353, island: 'Oahu' },
+  { name:  'Koloa', population: 2348, island: 'Kauai' },
+  { name:  'Eleele', population: 2329, island: 'Kauai' },
+  { name:  'Pahala', population: 2210, island: 'Hawaii' },
+  { name:  'Kealakekua', population: 2128, island: 'Hawaii' },
+  { name:  'Maunawili', population: 2071, island: 'Oahu' },
+  { name:  'Kapaau', population: 2044, island: 'Hawaii' },
+  { name:  'Kualapuu', population: 2024, island: 'Maui' },
+  { name:  'Princeville', population: 1969, island: 'Kauai' },
+];
